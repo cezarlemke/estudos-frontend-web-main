@@ -1,0 +1,41 @@
+.borda1 {
+    background-color: #999999;
+    color: #ffffff;
+    width: 400px;
+    height: 400px;
+    border:3px solid #ff0000 ;
+
+}
+.borda2 {
+    background-color: #999999;
+    color: #ffffff;
+    width: 400px;
+    height: 400px;
+    border: 3px dotted #ff0000;
+}
+.borda3 {
+    background-color: #999999;
+    color: #ffffff;
+    width: 400px;
+    height: 400px;
+    border: 3px dashed #ff0000;
+}
+.borda4 {
+    background-color: #999999;
+    color: #ffffff;
+    width: 400px;
+    height: 400px;
+    border: 3px solid #ff0000;
+    border-radius: 10px;
+}
+.borda5 {
+    background-color: #999999;
+    color: #ffffff;
+    width: 400px;
+    height: 400px;
+    border-radius: 200px;
+}
+img {
+    border: 3px solid #ff0000;
+    border-radius: 5px;
+}

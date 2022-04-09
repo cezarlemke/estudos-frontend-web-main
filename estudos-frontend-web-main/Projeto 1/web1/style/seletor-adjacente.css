@@ -1,0 +1,6 @@
+.header + span {
+    background-color: blue;
+}
+p + span {
+    background-color: brown;
+}

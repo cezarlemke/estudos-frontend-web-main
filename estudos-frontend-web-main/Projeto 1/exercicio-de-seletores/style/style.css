@@ -1,0 +1,14 @@
+.header{
+    background-color: blue;
+    font-size: 20px;
+    color:  white;
+}
+div > p {
+    font-size: 36px;
+}
+.header + div {
+    background-color: red;
+}
+ strong {
+    color: green;
+}

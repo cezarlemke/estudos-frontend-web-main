@@ -1,0 +1,26 @@
+a {
+    color: black;
+}
+a:hover {
+    color: blue;
+}
+div {
+    background-color: #ff0000;
+    width:100px;
+    height: 100px;
+}
+div:hover {
+    background-color: #00ff00;
+}
+.teste1 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+div:hover span {
+    color: #fff;
+}
+div:hover {
+    color: #e09900;
+}
+
