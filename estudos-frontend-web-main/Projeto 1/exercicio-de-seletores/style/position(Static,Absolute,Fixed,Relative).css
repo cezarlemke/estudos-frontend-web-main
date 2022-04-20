@@ -1,0 +1,9 @@
+div {
+	width:100px;
+	height:100px;
+	background-color:#ff0000;
+	margin: 5px;
+}
+.quadrado{
+	position: relative;
+}

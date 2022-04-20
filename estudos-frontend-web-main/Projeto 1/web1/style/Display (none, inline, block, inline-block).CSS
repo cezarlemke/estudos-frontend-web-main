@@ -1,0 +1,23 @@
+div, span{
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    margin: 5px;
+}
+.texto1, .texto5{
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    margin: 5px;
+    display: none;
+}
+span{
+    display: block;
+}
+.texto8, .texto9, .texto10{
+    display: inline;
+}
+
+.texto3, .texto4, .texto6 {
+    display: inline-block;
+}

@@ -1,0 +1,29 @@
+body {
+    margin: 0px;    /* Essa tag <bory> é para tira todas as margin que vem de padrao do html */
+    background-color:#4F4F4F ;
+}
+div {
+    width: 100%;    /* Essa tag e para dar a largura para menu e 100% */
+    height:50px;    /* Essa tag e para dar uma altura para o menu*/
+    background-color: #BA55D3;     /*Essa tag <background-color> da cor de fundo da topo do menu, que e azul*/
+}
+a {
+    width: 150px;    /* Essa tag <width> e a largura do meu menu*/
+    height: 35px;   /* Essa tag <heigth> para dar altura para o menu e poder colocar a cor branca */
+    padding-top: 15px;  /* Essa tag <padding-top> para dar uma margin do topo para o menu*/
+    text-align: center; /* Essa tag <text-aling> para alinhar o texto */
+    float: left;    /* Essa tag <float: left;> É para os icones ficar flutuando a esquerda da tela*/
+    color: #fff;    /* Essa tag <color> para dar cor ao texto*/
+
+}
+
+     /* A tag <a> e meu link de menu e a tag <hover> faz uma mudança na tag <a> nesse caso ela muda a cor de texto de branco para azul e o fundo e de azul para braco invertendo as cores */
+a:hover {
+    background-color: #fff;
+    color: #BA55D3;
+}
+
+/* Selecionei a tag <.home> que é minha primeira tag para mudar a margin da esquerda, fiz uma mudança de 90px */
+.home {
+    margin-left: 90px;
+}

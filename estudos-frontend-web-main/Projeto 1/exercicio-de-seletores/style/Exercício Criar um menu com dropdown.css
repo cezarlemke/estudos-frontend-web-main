@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+}
+
+.menu {
+    margin: 0px;
+    padding: 0px;
+    background-color: #00f;
+}
+.menu a{
+    color: #fff;
+    list-style: none;
+    padding: 10px;
+    display: block;
+}
+.menu a:hover{
+    background-color: #fff;
+    color: #00f;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+.submenu {
+    position: absolute;
+    display: none;
+}
+
+.submenu{
+    position: absolute;
+    display: none;
+    min-width: 150px;  /*Largura minima para o submenu */
+}
+.menu li:hover .submenu{
+    display:block;
+}
+.submenu .menu li{
+    display: block;  /* Vai deixar na vertical o menu*/
+}
+img {
+    width: 350px;
+    height: 600px;
+}

@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+.menu{
+    background-color: blue;
+    margin: 0px;
+    padding: 0px;
+}
+.menu a {
+    color:#fff;
+    display: block;
+    padding: 10px;
+}
+.menu a:hover {
+    background-color: #fff;
+    color: #00f;
+} 
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+.home {
+    margin-left: 150px;
+}

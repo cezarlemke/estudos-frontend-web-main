@@ -1,0 +1,14 @@
+tr, td, th{
+    padding: 5px 10px;
+}
+table {
+    border: 2pt solid black;
+    border-collapse: collapse;
+}
+th {
+    border: 0.5pt solid black;
+    border-bottom: 1pt solid black;
+}        
+td {
+    border: 1pt groove;
+}
