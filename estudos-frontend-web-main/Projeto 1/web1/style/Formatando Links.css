@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    background-color: #ff0;
+    text-transform: uppercase;
+}

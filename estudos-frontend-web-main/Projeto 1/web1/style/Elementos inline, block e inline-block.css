@@ -1,0 +1,19 @@
+body{
+    margin: 0px;
+}
+.texto{
+    width: 300px;
+    height: 100px;
+    background-color: #eee;
+    color: #f00;
+    font-size: 20px;
+    font-family: Helvetica,Verdana;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+
+    display: none;/*faz nao mostrar elementos*/
+    display: inline;/*faz o elemento ficar na mesma linha no mesmo fluxo as div fica uma do lado da outra */
+    display: block;/* faz o elemento ficar na mesma linha mais mantem as propriedades da div */
+
+}

@@ -1,0 +1,104 @@
+* {
+    font-family: Arial;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.topo {
+    height: 50px;
+    background-color: #353535; 
+
+}
+.topointerior {
+    width: 1000px;
+    margin:auto;
+    color:#fff
+
+}
+.logomarca {
+    float: left;
+    font-size: 24px;
+    line-height: 50px;       /*define o tamanho da linha nesse caso eu defini 50px que é o mesmo tamanho da div de topo assim ficando centralizado o texto*/
+}
+.menu {
+    float: right;
+}
+.menu ul,
+.menu li {
+    margin: 0px;
+    padding: 0px;               /*para tirar todas as margin da lista*/
+    list-style: none;            /*tira a marcação da lista a bolinha que fica no incio da lista*/
+}
+.menu li {
+    float: left;                        /*os itens vai ficar um ao lado do outro*/
+    padding-left: 10px;         /*Todo o espasamento a esquerda aqui vai ser de 10px dos item da lista de menu */
+    padding-right: 10px;       /*Todo o espasamento a direita aqui vai ser de 10px dos itens da lista de menu*/
+    line-height: 50px;
+    font-size: 14px;
+    cursor: pointer;
+
+}.menu li:hover {
+    background-color: #3480c1;
+}
+.banner {
+    height: 300px;                                      /*alturo da div ou banner*/
+    background-color: #347aba;          /*cor de fundo do banner ou div */
+}
+.bannerinterior {
+    width: 1000px;
+    margin: auto;
+}
+.banneresquerda {
+    float: left;
+}
+.bannerdireita {
+    float: right;
+}
+.bannerdireita img {
+    margin-right: 55px;
+}
+
+.frase1 {
+    font-size: 48px;
+    color: #fff;
+    margin-top: 60px;
+}
+.frase2 {
+    font-size: 20px;
+    color: #fff;
+}
+.botao {
+    background-color:#ffc001;
+    width: 282px;
+    height: 56px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 56px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.conteudointerno {
+    width: 1000px;
+    margin: auto;
+}
+.outrosprodutos {
+    height:90px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 90px;
+}
+.fotos img{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.rodape {
+    background-color:#347aba;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    margin-top: 40px;
+}

@@ -1,0 +1,24 @@
+body{
+    margin: 0px;
+}
+.texto{
+    width: 300px;
+    height: 100px;
+    background-color: #eeeeee;
+    color: red;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.flutuante {
+    position: absolute;        /*quer dizer que o elemento vai flutuar e posso deixar em qualquer lugar na pagina*/
+    position: fixed;            /* o elemento vai ficar fixo ficar parado mesmo e rode a pagina ele sempre fica no mesmo lugar*/
+    
+}
